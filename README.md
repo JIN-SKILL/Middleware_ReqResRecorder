@@ -1,7 +1,7 @@
 # Middleware 時間戳記&回應時間
 紀錄伺服器Log，研究請求 (request) 與回應 (request) 生命週期。
 
-![Middleware_ReqResRecorder]()
+![Middleware_ReqResRecorder](https://raw.githubusercontent.com/JIN-SKILL/Example_Image/main/Middleware_ReqResRecorder.png)
 
 ## 使用工具
 + Node.js 14.15.3
