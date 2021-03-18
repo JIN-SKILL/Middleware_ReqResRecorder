@@ -29,11 +29,15 @@ router.get('/', (req, res) => {
 })
 
 router.get('/new', (req, res) => {
-  res.send('新增 Todo 頁面')
+  setTimeout(() => {
+    res.send('新增 Todo 頁面')
+  }, 2000);
 })
 
 router.get('/:id', (req, res) => {
-  res.send('顯示一筆 Todo')
+  setTimeout(() => {
+    res.send('顯示一筆 Todo')
+  }, 1000)
 })
 
 router.post('/', (req, res) => {
